@@ -20,7 +20,9 @@ Plot the result in different methods for different Values.
 
 
 # CODE
-'''import pandas as pd
+```
+
+import pandas as pd
 import numpy as np
 df=pd.read_csv("titanic_dataset.csv")
 print(df)
@@ -45,9 +47,12 @@ sns.displot(df[df["Survived"]==0]['Age'])
 pd.crosstab(df["Pclass"],df["Survived"])
 pd.crosstab(df["Sex"],df["Survived"])
 df.corr()
-sns.heatmap(df.corr(),annot=True)'''
+sns.heatmap(df.corr(),annot=True)
+
+```
 # OUPUT
-![alt text](http://url/to/.png)
+![screenshot](https://user-images.githubusercontent.com/102233600/162875848-66109e0e-e7d2-42b1-a11e-45c93b103ab0.png)
+
 
 # Result:
 Hence the given dataset is analysed using EDA method.
